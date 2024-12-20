@@ -53,9 +53,7 @@ export default function Header() {
                     open && 
                     <nav className="sm:hidden">
                     <ul className="flex-col items-center space-y-2 text-center">
-                        <li>asd</li>
-                        <li>Linkdin</li>
-                        <li>Gmail</li>
+                        <li>Proyectos - proximamente</li>
                     </ul>
                 </nav>
                 }

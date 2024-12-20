@@ -12,7 +12,7 @@ export default function ProjectCard({ item }: ProjectCardProps) {
         <p className="text-gray-700 dark:text-gray-200 w-4/5">{item.description}</p>
         <div className="space-x-5 py-2">
         <a
-          href={item.link}
+          href={item.github}
           target="_blank"
           rel="noopener noreferrer" 
           className=" w-fit bg-slate-950 dark:bg-white text-white dark:text-black text-center rounded-lg p-2 font-bold hover:bg-gray-400 dark:hover:bg-blue-600 focus:ring-2 focus:ring-black transition-colors duration-300"

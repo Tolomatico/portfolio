@@ -4,7 +4,7 @@ import { socials, user } from "../data/data";
 export default function Footer() {
   return (
     <footer
-      className="space-y-5 p-5 bg-slate-100   dark:text-white  dark:bg-black transition-colors duration-700">
+      className="space-y-5 p-5  bg-slate-100   dark:text-white  dark:bg-black transition-colors duration-700">
       <div className="flex justify-center items-center gap-5 text-2xl">
         <p className="font-black">Mis redes sociales:</p>
         <a

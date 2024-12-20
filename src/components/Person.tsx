@@ -23,8 +23,8 @@ export default function Person() {
 
 
             <p className="text-lg text-slate-600 dark:text-slate-200">
-                I am a software developer specializing in building and occasionally designing exceptional digital experiences.
-                Currently, I am focused on building accessible, human-centered products.
+              Soy un desarrollador web con experiencia tanto en frontEnd como en backEnd.
+              Estoy en buúqueda de nuevos desafios y oportunidades para seguir creciendo como un desarrollador profesional.
             </p>
             <div className="space-x-5">
                 {
@@ -34,7 +34,7 @@ export default function Person() {
                             href={item.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className=" bg-slate-100  p-2 rounded-lg text-black">
+                            className="font-bold bg-slate-100 hover:bg-blue-600 hover:text-white  p-2 rounded-lg text-black transition-colors duration-300">
                             {item.name}</a>
                     ))
                 }

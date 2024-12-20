@@ -9,14 +9,14 @@ export const data: Project[] = [
     title: 'UpTask - Administra Proyectos y Tareas',
     description: 'Administrador de Proyectos y Tareas con autenticación de usuarios,utilzando Reactjs,React-hook-form,React-Query,TypeScript y TailwindCSS',
     link: 'https://uptask-typescript-react-tailwind.netlify.app/',
-    github: "asd"
+    github: "https://github.com/Tolomatico/upTask_Frontend"
 
   },
   {
     title: 'DevTree - Comunidad de Desarrolladores',
     description: 'Comparte tus links, y redes sociales a todo el mundo con DevTree, utilizando Reactjs,TypeScript, TailwindCSS, y MongoDB',
     link: 'https://devtreetolo.netlify.app/',
-    github: "asd"
+    github: "https://github.com/Tolomatico/devtree_frontend"
   },
   {
     title: 'CashTracker - Controla tus Gastos',
