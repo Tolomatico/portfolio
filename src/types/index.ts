@@ -1,6 +1,7 @@
 export type User={
     name:string
     dev:string
+    description:string
 }
 
 

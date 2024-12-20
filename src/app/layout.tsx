@@ -1,3 +1,5 @@
+
+
 import './globals.css'
 import { Roboto } from 'next/font/google'
 
@@ -14,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en">     
       <body className={inter.className}>{children}</body>
     </html>
   )

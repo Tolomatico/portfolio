@@ -23,8 +23,7 @@ export default function Person() {
 
 
             <p className="text-lg text-slate-600 dark:text-slate-200">
-              Soy un desarrollador web con experiencia tanto en frontEnd como en backEnd.
-              Estoy en buúqueda de nuevos desafios y oportunidades para seguir creciendo como un desarrollador profesional.
+                {user.description}
             </p>
             <div className="space-x-5">
                 {

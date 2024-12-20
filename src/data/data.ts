@@ -2,7 +2,8 @@ import { Project, Skill, Social, User } from "../types"
 
 export const user:User = {
   name: "Tomás Ballesty",
-  dev: "Full Stack Developer"
+  dev: "Full Stack Developer",
+  description:  "Soy un desarrollador web con experiencia tanto en frontEnd como en backEnd.Estoy en búsqueda de nuevos desafios y oportunidades para seguir creciendo como un desarrollador profesional."
 }
 export const data: Project[] = [
   {
