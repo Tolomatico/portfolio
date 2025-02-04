@@ -1,9 +1,9 @@
 
 
 import './globals.css'
-import { Roboto } from 'next/font/google'
+import {  Roboto_Mono } from 'next/font/google'
 
-const inter = Roboto({ subsets: ['latin'],style:"normal",weight:["300"] })
+const inter = Roboto_Mono({ subsets: ['latin'],style:"normal",weight:["300"] })
 
 export const metadata = {
   title: 'Tomás Ballesty',
