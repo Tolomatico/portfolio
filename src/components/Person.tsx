@@ -11,7 +11,7 @@ export default function Person() {
             <h1 className="text-8xl font-black dark:text-white transition-all duration-700">
                 Soy <p className="text-blue-600">{name}</p>
                 <span className="text-blue-600">{last_name}</span>
-                .</h1>
+                </h1>
 
             <div>
                 <span className="text-blue-500  p-2 rounded-lg border-2 animate-color-cycle transition-colors dark:animate-color-cycle">

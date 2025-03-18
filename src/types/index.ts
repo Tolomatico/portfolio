@@ -10,6 +10,7 @@ export type Project = {
     description: string
     link: string
     github:string
+    img:string
 
 }
 
