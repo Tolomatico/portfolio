@@ -26,7 +26,7 @@ export default function ProjectPage() {
                     <span className="text-blue-600 block">
                         Proyectos
                     </span></h2>
-                <div className="flex flex-wrap gap-5 items-center justify-between px-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 m-5">
                     {data.map((item) => (
                         <Card key={item.link} item={item} />
                     ))}
