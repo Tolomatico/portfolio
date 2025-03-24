@@ -43,8 +43,8 @@ export const data: Project[] = [
      img:"/devtree.png"
   }
 ]
+export const skills:Skill[] = ["Javascript", "React", "Next", "TypeScript", "TailwindCSS", "Node", "Express", "Nest", "SQL", "MongoDb", "PostgreSQL"];
 
-export const skills: Skill[] = ["Javascript", 'React', 'Next', 'TypeScript', 'Tailwind CSS', 'Node', "Express", "Nest", "SQL", "MongoDb", "PostreSQL"]
 export const socials: Social[] = [
   {
     name: "Github",

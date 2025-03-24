@@ -15,7 +15,7 @@ export default function Projects() {
           <span className="text-blue-600 block">
            Proyectos
             </span></h2>
-        <div className="flex flex-col gap-5 items-center lg:flex-row flex-wrap">
+        <div className="flex flex-col gap-5  items-center lg:flex-row flex-wrap">
           {lastProyects.map((item) => (
             <ProjectCard key={item.link} item={item} />
           ))}
