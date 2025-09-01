@@ -8,12 +8,13 @@ type ProjectCardProps = {
 export default function Card({ item }: ProjectCardProps) {
   return (
     <div className="max-w-[350px] min-h-[500px]  flex flex-col justify-between items-center rounded-xl bg-slate-100 p-5 gap-2 dark:bg-slate-900 shadow">
-      <div >
+      <div className="w-full h-[250px] flex items-center justify-center overflow-hidden rounded-lg">
         <Image
           src={item.img}
           width={200}
           height={200}
           alt={`Imagen de ${item.title}`}
+          className="w-200 h-200 object-cover"
         />
       </div>
       <div className="fit-content">

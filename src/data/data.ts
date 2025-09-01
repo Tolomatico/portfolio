@@ -21,6 +21,13 @@ export const data: Project[] = [
      img:"/uptask.png"
 
   },
+   {
+    title: 'Integraciones con IA',
+    description: 'Un chat con integraciones de OpenAi,ElevenLabs,Llama3 en local.',
+    link: 'https://tolo-aiassisant.netlify.app/',
+    github: "https://github.com/Tolomatico/ai-assistant",
+    img:"/assistant.png"
+  },
   {
     title: 'CashTracker - Administrado de Presupuestos',
     description: 'Administra tus presupuestos y gastos, utilizando Next y node con TypeScript, y Sequelize con postgress.',
