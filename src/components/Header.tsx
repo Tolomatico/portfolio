@@ -75,7 +75,7 @@ export default function Header() {
                                     download="BALLESTY TOMAS - CV.pdf"
                                 >
                                     <MdOutlineFileDownload />
-                                    Descargar cv
+                                    Descargar CV
                                 </a>
                    
 
