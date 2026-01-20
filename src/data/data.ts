@@ -7,6 +7,13 @@ export const user:User = {
 }
 export const data: Project[] = [
   {
+    title: 'Eud de Tolo - Ecommerce',
+    description: 'Ecommerce hecho con Nextjs,buenas prácticas en SSR y CSR, gestión de estados con zustand, autenticación con next-auth, integración con mercadopago, y paypal.',
+    link: 'https://euddetolo-6lh7qmr53-tolomaticos-projects.vercel.app/',
+    github: "https://github.com/No-Country-simulation/s21-03-m-webapp",
+    img:"/eudtolo.png"
+  },
+  {
     title: 'Mesa 360 - Administrador Gastronómico',
     description: 'Administra los salones,mesas,productos,miembros y facturación de tu local,hecho con typescript,next y node.',
     link: 'https://mesa360.vercel.app/',
