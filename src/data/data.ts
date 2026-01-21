@@ -9,7 +9,7 @@ export const data: Project[] = [
   {
     title: 'Eud de Tolo - Ecommerce',
     description: 'Ecommerce hecho con Nextjs,buenas prácticas en SSR y CSR, gestión de estados con zustand, autenticación con next-auth, integración con mercadopago, y paypal.',
-    link: 'https://euddetolo-6lh7qmr53-tolomaticos-projects.vercel.app/',
+    link: 'https://euddetolo-tolomatico-tolomaticos-projects.vercel.app/',
     github: "https://github.com/No-Country-simulation/s21-03-m-webapp",
     img:"/eudtolo.png"
   },
