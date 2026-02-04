@@ -6,6 +6,13 @@ export const user:User = {
   description:  "Soy un desarrollador web con experiencia tanto en frontEnd como en backEnd. Estoy en búsqueda de nuevos desafios y oportunidades para seguir creciendo como un desarrollador profesional."
 }
 export const data: Project[] = [
+   {
+    title: 'Rentable - Plataforma de alquileres',
+    description: 'Plataforma de inmuebles desarrollada con Nextjs, supabase, y Leaflet para mapas.',
+    link: 'https://renthub-tolomatico-tolomaticos-projects.vercel.app/',
+    github: "https://github.com/Tolomatico/ecommerce-parfum",
+    img:"/rentable.png"
+  },
   {
     title: 'Eud de Tolo - Ecommerce',
     description: 'Ecommerce hecho con Nextjs,buenas prácticas en SSR y CSR, gestión de estados con zustand, autenticación con next-auth, integración con mercadopago, y paypal.',
