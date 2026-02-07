@@ -2,10 +2,10 @@
 
 import Footer from '@/components/Footer'
 import './globals.css'
-import { Roboto_Mono } from 'next/font/google'
+import {Montserrat } from 'next/font/google'
 import Header from '@/components/Header'
 
-const inter = Roboto_Mono({ subsets: ['latin'], style: "normal", weight: ["300"] })
+const inter = Montserrat({ subsets: ['latin'], style: "normal", weight: ["300"] })
 
 export const metadata = {
   title: 'Tomás Ballesty',
