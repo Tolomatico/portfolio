@@ -6,6 +6,14 @@ export const user:User = {
   description:  "Soy un desarrollador web con experiencia tanto en frontEnd como en backEnd. Estoy en búsqueda de nuevos desafios y oportunidades para seguir creciendo como un desarrollador profesional."
 }
 export const data: Project[] = [
+  {
+    title: 'CuidApp - Gestión de turnos',
+    description: 'Plataforma de gestión de turnos y cuidadores de pacientes. Desarrollada en React, TypeScript y TanStack Query,con Nest con Typeorm',
+    link: 'https://dulcet-truffle-679834.netlify.app/login',
+    github: "https://github.com/No-Country-simulation/S02-26-Equipo-29-Web-App-Development/tree/DEPLOYMENT",
+     img:"/cuidapp.png"
+
+  },
    {
     title: 'Rentable - Plataforma de alquileres',
     description: 'Plataforma de inmuebles desarrollada con Nextjs, supabase, y Leaflet para mapas.',
