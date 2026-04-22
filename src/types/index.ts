@@ -20,3 +20,10 @@ export type Social={
 }
 
 export type Skill= string
+
+export type Experience = {
+    company: string
+    role: string
+    period: string
+    description: string
+}

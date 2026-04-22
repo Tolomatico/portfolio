@@ -1,35 +1,95 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+"use client";
+
+import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope, FaHome, FaCode} from "react-icons/fa";
 import { socials, user } from "../data/data";
+import Link from "next/link";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="p-6 bg-slate-100 dark:bg-black text-center text-gray-700 dark:text-gray-300 transition-colors duration-700 dark:border-t-2 border-gray-300 dark:border-gray-700">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-5 text-xl">
-        <p className="font-bold text-lg">Mis redes sociales:</p>
-        <div className="flex gap-4 text-3xl">
-          <a
-            href={socials[0].link}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="hover:text-gray-500 dark:hover:text-gray-300  "
+    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 transition-colors duration-700 border-t dark:border-gray-700">
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center"
           >
-            <FaGithub />
-          </a>
-          <a
-            href={socials[1].link}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-            className="hover:text-gray-500 dark:hover:text-gray-300 "
+            <h3 className="text-lg font-bold mb-4 dark:text-white">Navegación</h3>
+            <nav className="flex flex-col gap-2">
+              <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400 flex items-center justify-center gap-2">
+                <FaHome /> Inicio
+              </Link>
+              <Link href="/proyects" className="hover:text-blue-600 dark:hover:text-blue-400 flex items-center justify-center gap-2">
+                <FaCode /> Proyectos
+              </Link>
+            </nav>
+          </motion.div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-center"
           >
-            <FaLinkedin />
-          </a>
+            <h3 className="text-lg font-bold mb-4 dark:text-white">Contacto</h3>
+            <a
+              href="mailto:tomasballesty@gmail.com"
+              className="hover:text-blue-600 dark:hover:text-blue-400 flex items-center justify-center gap-2"
+            >
+              <FaEnvelope /> Email
+            </a>
+          </motion.div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-center"
+          >
+            <h3 className="text-lg font-bold mb-4 dark:text-white">Redes Sociales</h3>
+            <div className="flex justify-center gap-4 text-2xl">
+              <motion.a
+                href={socials[0].link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                whileHover={{ scale: 1.2, y: -3 }}
+                className="hover:text-blue-600 dark:hover:text-blue-400"
+              >
+                <FaGithub />
+              </motion.a>
+              <motion.a
+                href={socials[1].link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                whileHover={{ scale: 1.2, y: -3 }}
+                className="hover:text-blue-600 dark:hover:text-blue-400"
+              >
+                <FaLinkedin />
+              </motion.a>
+            </div>
+          </motion.div>
         </div>
+
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mt-8 pt-8 border-t dark:border-gray-700 text-center"
+        >
+          <p className="flex items-center justify-center gap-2 text-lg font-semibold">
+            {user.name} © {currentYear}. All Rights Reserved.
+          </p>
+        </motion.div>
       </div>
-      <p className="mt-4 text-lg font-semibold">
-        All Rights Reserved.{user.name}({new Date().getFullYear()}).
-      </p>
     </footer>
   );
 }
