@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: 'Soy Tomás Ballesty, Full Stack Developer especializado en React, Next.js, TypeScript y más.',
     images: [
       {
-        url: '/og-image.webp',
+        url: '/og-image.jpeg',
         width: 1200,
         height: 630,
         alt: 'Tomás Ballesty - Portfolio',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: 'Tomás Ballesty | Full Stack Developer',
     description: 'Full Stack Developer especializado en React, Next.js, TypeScript.',
     creator: '@tomasballesty',
-    images: ['/og-image.webp'],
+    images: ['/og-image.jpeg'],
   },
   robots: {
     index: true,
